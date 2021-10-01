@@ -31,7 +31,7 @@
         android:padding="10dp">
 
         <EditText
-            android:id="@+id/editTextEmail"
+            android:id="@+id/editTextEmailLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/hint"
@@ -43,7 +43,7 @@
             android:textColorHint="@color/hint" />
 
         <EditText
-            android:id="@+id/editTextPassword"
+            android:id="@+id/editTextPasswordLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/hint"

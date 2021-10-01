@@ -50,8 +50,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        editTextEmail = findViewById(R.id.editTextEmail);
-        editTextPassword = findViewById(R.id.editTextPassword);
+        editTextEmail = findViewById(R.id.editTextEmailLogin);
+        editTextPassword = findViewById(R.id.editTextPasswordLogin);
 
         apiRequest = RetrofitClient.getClient().create(Api.class);
 
